@@ -1,14 +1,6 @@
 const firebase = require("firebase");
 const functions = require("firebase-functions");
-const firebaseConfig = {
-  apiKey: "AIzaSyDZuRL0F44DYvPTbSDGnwHEuwzOhDKGnFI",
-  authDomain: "socialape-eb26e.firebaseapp.com",
-  databaseURL: "https://socialape-eb26e.firebaseio.com",
-  projectId: "socialape-eb26e",
-  storageBucket: "socialape-eb26e.appspot.com",
-  messagingSenderId: "1077056495849",
-  appId: "1:1077056495849:web:72a85426e252c4f6"
-};
+const firebaseConfig = {};
 firebase.initializeApp(firebaseConfig);
 const admin = require("firebase-admin");
 admin.initializeApp();
